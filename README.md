@@ -1,2 +1,2 @@
-# pygame
-primeiro jogo em pygame
+# pygame  tutorial
+primeiro jogo em pygame assitindo o tutorial do YT
