@@ -1,0 +1,22 @@
+mouse_pos = pygame.mouse.get_pos()
+    if player_rect.collidepoint(mouse_pos):
+        print(pygame.mouse.get_pressed())
+
+if event.type == pygame.MOUSEMOTION:
+    if player_rect.collidepoint(event.pos):
+        print('colisão')
+
+pygame.draw.line(tela,'Gold',(0,0),pygame.mouse.get_pos(),10) #  desenhar na tela
+
+keys = pygame.key.get_pressed() # imput de key fora sem ser evento
+    if keys[pygame.K_SPACE]:
+        print('jump')
+
+# if event.type == pygame.KEYDOWN:   #key imput no evento
+        #     if event.key == pygame.K_SPACE:
+        #      print('pula')
+        # if event.type == pygame.KEYUP:
+        #     print('key up')   
+
+if player_rect.colliderect(snail_rect):#retorna 0 ou 1, False True
+       print('colide')
